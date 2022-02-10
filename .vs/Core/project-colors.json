@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "203e4bc2-4c44-4379-a2f6-aa4d354042bb": {
+      "ProjectGuid": "203e4bc2-4c44-4379-a2f6-aa4d354042bb",
+      "DisplayName": "Database",
+      "ColorIndex": 0
+    },
+    "6b4c7051-f255-4b43-9ce8-86f8a41f578b": {
+      "ProjectGuid": "6b4c7051-f255-4b43-9ce8-86f8a41f578b",
+      "DisplayName": "Model",
+      "ColorIndex": 1
+    },
+    "6d44b31c-d7da-4e56-996e-ba7a94704ebc": {
+      "ProjectGuid": "6d44b31c-d7da-4e56-996e-ba7a94704ebc",
+      "DisplayName": "Bussiness",
+      "ColorIndex": 2
+    },
+    "7dd1277d-7ea6-4141-a72e-2fb6483af683": {
+      "ProjectGuid": "7dd1277d-7ea6-4141-a72e-2fb6483af683",
+      "DisplayName": "Repo",
+      "ColorIndex": 3
+    },
+    "4b8d6ff4-545b-49db-bfef-1ca5bafe1dc0": {
+      "ProjectGuid": "4b8d6ff4-545b-49db-bfef-1ca5bafe1dc0",
+      "DisplayName": "Core",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

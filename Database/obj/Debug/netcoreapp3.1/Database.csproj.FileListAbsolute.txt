@@ -1,0 +1,13 @@
+C:\Users\harsh jangid\Desktop\Core\Database\bin\Debug\netcoreapp3.1\Database.deps.json
+C:\Users\harsh jangid\Desktop\Core\Database\bin\Debug\netcoreapp3.1\Database.runtimeconfig.json
+C:\Users\harsh jangid\Desktop\Core\Database\bin\Debug\netcoreapp3.1\Database.runtimeconfig.dev.json
+C:\Users\harsh jangid\Desktop\Core\Database\bin\Debug\netcoreapp3.1\Database.dll
+C:\Users\harsh jangid\Desktop\Core\Database\bin\Debug\netcoreapp3.1\Database.pdb
+C:\Users\harsh jangid\Desktop\Core\Database\obj\Debug\netcoreapp3.1\Database.csproj.AssemblyReference.cache
+C:\Users\harsh jangid\Desktop\Core\Database\obj\Debug\netcoreapp3.1\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsh jangid\Desktop\Core\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
+C:\Users\harsh jangid\Desktop\Core\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfo.cs
+C:\Users\harsh jangid\Desktop\Core\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache
+C:\Users\harsh jangid\Desktop\Core\Database\obj\Debug\netcoreapp3.1\Database.dll
+C:\Users\harsh jangid\Desktop\Core\Database\obj\Debug\netcoreapp3.1\Database.pdb
+C:\Users\harsh jangid\Desktop\Core\Database\obj\Debug\netcoreapp3.1\Database.genruntimeconfig.cache

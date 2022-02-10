@@ -1,0 +1,10 @@
+C:\Users\harsh jangid\Desktop\Core\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\harsh jangid\Desktop\Core\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\harsh jangid\Desktop\Core\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\harsh jangid\Desktop\Core\Model\obj\Debug\netcoreapp3.1\Model.csproj.AssemblyReference.cache
+C:\Users\harsh jangid\Desktop\Core\Model\obj\Debug\netcoreapp3.1\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsh jangid\Desktop\Core\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\harsh jangid\Desktop\Core\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\harsh jangid\Desktop\Core\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\harsh jangid\Desktop\Core\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\harsh jangid\Desktop\Core\Model\obj\Debug\netcoreapp3.1\Model.pdb
