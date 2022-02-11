@@ -1,6 +1,8 @@
 ﻿using Bussiness;
+using Database.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Model;
+using System.Collections.Generic;
 
 namespace Core.Controllers
 {
@@ -20,7 +22,40 @@ namespace Core.Controllers
         public IActionResult Create(Employee employee)
         {
             _IEmployeeBussiness.AddEmployee(employee);
-            return View();
+                return RedirectToAction("ShowDetail");
+        }
+
+        public ActionResult ShowDetail()
+        {
+            return View(_IEmployeeBussiness.ShowDetail());
+        }
+
+        public ActionResult Details(int Id)
+        {
+            return View(_IEmployeeBussiness.Details(Id));
+        }
+
+        public ActionResult Edit(int Id)
+        {
+            return View(_IEmployeeBussiness.Details(Id));
+        }
+        [HttpPost]
+        public ActionResult Edit(int Id , Simple simple)
+        {
+            _IEmployeeBussiness.EditList(Id, simple);
+            return RedirectToAction("ShowDetail");
+        }
+
+        public ActionResult Delete(int Id)
+        {
+            return View(_IEmployeeBussiness.Details(Id));
+        }
+
+        [HttpPost]
+        public ActionResult Delete(int Id , Simple simple)
+        {
+            _IEmployeeBussiness.DeleteList(Id);
+            return RedirectToAction("ShowDetail");
         }
     }
 }
