@@ -33,6 +33,7 @@
         "dependencies": {
           "Bussiness": "1.0.0",
           "Database": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.4",
           "Microsoft.EntityFrameworkCore.Design": "3.1.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
           "Model": "1.0.0",

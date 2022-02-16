@@ -16,6 +16,8 @@ namespace Bussiness
 
         bool EditList(int id, Simple simple);
 
-        bool DeleteList(int id);
+        bool DeleteList(Simple simple);
+
+        List<Simple> ExampleList();
     }
 }

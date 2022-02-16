@@ -15,6 +15,7 @@ namespace Database.Entities
         {
         }
 
+        public virtual DbSet<Dept> Dept { get; set; }
         public virtual DbSet<Simple> Simple { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -28,19 +29,32 @@ namespace Database.Entities
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Simple>(entity =>
+            modelBuilder.Entity<Dept>(entity =>
             {
-                entity.Property(e => e.Id)
-                    .HasColumnName("ID")
-                    .ValueGeneratedNever();
+                entity.HasNoKey();
+
+                entity.Property(e => e.DepId).HasColumnName("DepID");
 
                 entity.Property(e => e.Department)
                     .IsRequired()
                     .HasMaxLength(50);
+            });
+
+            modelBuilder.Entity<Simple>(entity =>
+            {
+                entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.Property(e => e.DepId).HasColumnName("DepID");
+
+                entity.Property(e => e.Department)
+                    .IsRequired()
+                    .HasMaxLength(10)
+                    .IsFixedLength();
 
                 entity.Property(e => e.Name)
                     .IsRequired()
-                    .HasMaxLength(50);
+                    .HasMaxLength(10)
+                    .IsFixedLength();
             });
 
             OnModelCreatingPartial(modelBuilder);

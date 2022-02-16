@@ -35,9 +35,14 @@ namespace Bussiness
             return _EmployeeRepo.EditList(Id, simple);
         }
 
-        public bool DeleteList(int id)
+        public bool DeleteList(Simple simple)
         {
-            return _EmployeeRepo.DeleteList(id);
+            return _EmployeeRepo.DeleteList(simple);
+        }
+
+        public List<Simple> ExampleList()
+        {
+            return (_EmployeeRepo.ExampleList());
         }
     }
 }

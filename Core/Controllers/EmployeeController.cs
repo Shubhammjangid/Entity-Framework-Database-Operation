@@ -52,10 +52,17 @@ namespace Core.Controllers
         }
 
         [HttpPost]
-        public ActionResult Delete(int Id , Simple simple)
+        public ActionResult Delete(Simple simple)
         {
-            _IEmployeeBussiness.DeleteList(Id);
+            _IEmployeeBussiness.DeleteList(simple);
             return RedirectToAction("ShowDetail");
         }
+
+        public ActionResult ExampleList()
+        {
+            return View (_IEmployeeBussiness.ExampleList());
+        }
+
+        
     }
 }
