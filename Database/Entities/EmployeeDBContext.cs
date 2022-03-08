@@ -23,7 +23,7 @@ namespace Database.Entities
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Server=LAPTOP-C59IR2RT\\SQLEXPRESS;Database=EMS;User ID=root;Password=Root@123;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=LAPTOP-C59IR2RT\\SQLEXPRESS;Database=EMS;User ID=*****;Password=******;Trusted_Connection=True;");
             }
         }
 
